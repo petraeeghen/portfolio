@@ -58,6 +58,13 @@ nav a {
   text-decoration: none;
 }
 
+.artep {
+  letter-spacing: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
   nav a:hover {
   color: #D16F4A;
 
@@ -66,7 +73,7 @@ nav a {
   border-left: transparent 3px
 }
 
-.wordmark{
+.wordmark {
   width: 70px;
   position: absolute;
   left: 2em;
