@@ -74,10 +74,17 @@ nav a {
 }
 
 .wordmark {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.wordmark2 {
   width: 70px;
   position: absolute;
   left: 2em;
-  top: .5em;
+  top: 1.5em;
 }
 
 .logo-2 {
@@ -104,6 +111,7 @@ fieldset {
 .backbutton {
   color: #D16F4A;
   text-transform: lowercase;
+  padding-top: 1em;
 }
 
 .hover-box-img {
@@ -119,4 +127,32 @@ fieldset {
 
 .hover-box:focus {
   z-index: 10;
+}
+
+.makespace {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: .5em;
+}
+
+.sadface {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+.btn {
+  background-color: black;
+  border-color: black;
+  text-align: center;
+  margin: auto;
+  color: white
+}
+
+.btn:hover {
+  background-color: #D16F4A;
+  border-color: black;
+  text-align: center;
+  margin: auto;
 }

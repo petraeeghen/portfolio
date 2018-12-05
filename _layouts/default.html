@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}} · Petra van Eeghen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{page.meta}}">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header" role="banner" id="top">
+    <div class="nav" role="navigation" id="nav">
+      <div class="grid grid-middle">
+        <nav class="unit xs-1 s-1 m-1 l-1">
+          <a href="index.html">
+          <img class="wordmark2" src="images/logoo.png">
+        </a>
+          <ul class="push-0 list-group">
+            <li class="makespace">
+              <a itemprop="portfolio" href="index.html">Portfolio</a>
+           </li>
+            <li class="makespace">
+              <a itemprop="about" href="about.html">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    {{content}}
+  </main>
+
+</body>
+
+</html>
